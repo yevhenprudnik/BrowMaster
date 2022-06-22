@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/brow_master/static/css/main.3c16db01.css",
+    "main.js": "/brow_master/static/js/main.f6095600.js",
+    "static/js/787.70c639a9.chunk.js": "/brow_master/static/js/787.70c639a9.chunk.js",
+    "static/media/bird.gif": "/brow_master/static/media/bird.bb0c4f33cfc3bbfcb199.gif",
+    "static/media/eye3.JPG": "/brow_master/static/media/eye3.5bb508dab422e2b04a78.JPG",
+    "static/media/yana.jpg": "/brow_master/static/media/yana.06501d4c6d1f597c07e3.jpg",
+    "static/media/eye5.JPG": "/brow_master/static/media/eye5.db4f9a5f8d56a3ff1377.JPG",
+    "static/media/eye2.JPG": "/brow_master/static/media/eye2.5a2783e5a0198af1beed.JPG",
+    "static/media/eye4.JPG": "/brow_master/static/media/eye4.80ecdf546dbd73865e04.JPG",
+    "static/media/eye1.JPG": "/brow_master/static/media/eye1.e59a94812ca8e3733e9d.JPG",
+    "static/media/eyebrow-pencil.png": "/brow_master/static/media/eyebrow-pencil.021d6ec70621a5db5c1e.png",
+    "static/media/telegram.png": "/brow_master/static/media/telegram.c1950e30ef5f530b0909.png",
+    "static/media/instagram.png": "/brow_master/static/media/instagram.79a98f5f5b11d88536f5.png",
+    "index.html": "/brow_master/index.html",
+    "main.3c16db01.css.map": "/brow_master/static/css/main.3c16db01.css.map",
+    "main.f6095600.js.map": "/brow_master/static/js/main.f6095600.js.map",
+    "787.70c639a9.chunk.js.map": "/brow_master/static/js/787.70c639a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c16db01.css",
+    "static/js/main.f6095600.js"
+  ]
+}

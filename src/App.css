@@ -1,0 +1,254 @@
+.App {
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+}
+.TopBlue {
+	background-color: #f9f3d3;
+}
+#menu {
+	transition: 0.2s;
+}
+.icon {
+	width: 25px;
+	height: 25px;
+}
+.container {
+	padding: 1%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.borrad {
+	border-radius: 5%;
+}
+.btn-grad {
+	background-image: linear-gradient(
+		to right,
+		rgb(17, 103, 201) 0%,
+		rgb(23, 80, 146) 51%,
+		rgb(100, 165, 240) 100%
+	);
+}
+.btn-grad {
+	font-size: 1.5em;
+	margin: 10px;
+	padding: 20px 55px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 300px;
+	display: block;
+}
+.btn-grad2 {
+	font-size: 1.1em;;
+	padding: 10px 22px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	box-shadow: 0 0 20px #eee;
+	border-radius: 300px;
+	display: block;
+	background-image: linear-gradient(
+		to right,
+		#F56565 0%,
+		#ee4f4f 51%,
+		#f83333 100%
+	);
+}
+.btn-grad2:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+.btn-grad:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
+.About {
+	text-align: left;
+	font-family: 'Noto Sans';
+	font-style: normal;
+	padding: 0% 10% 0% 10%;
+}
+.about_top {
+	padding: 0% 10% 0% 10%;
+	text-align: left;
+	font-family: 'Noto Sans';
+	font-style: normal;
+}
+.bird {
+	width: 20em;
+	margin-bottom: 30%;
+}
+.My_work {
+	overflow: auto;
+	white-space: nowrap;
+	padding: 5px 70px 5px 20px;
+	background: transparent;
+	height: 100%;
+	border-radius: 15px;
+}
+.gridscroll {
+	display: inline-block;
+}
+.gridscroll img {
+	margin-right: 22px;
+}
+.eye {
+	height: 200px;
+	width: 200px;
+}
+.My_work1 {
+	background-color: #eff0ee;
+}
+.adre {
+	background-color: #e0e0e0;
+	border-radius: px;
+}
+.container2 {
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+.Browar {
+	background-color: black;
+	color: white;
+	text-align: left;
+	padding-left: 2%;
+	border: 0.1px solid black;
+	font-size: 1.5em;
+}
+.Appointment {
+	padding-top: 3%;
+	background-color: rgb(224, 224, 224);
+}
+a {
+	text-decoration: none;
+}
+.muravei {
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 5%;
+	width: 70%;
+	vertical-align: middle;
+	border-radius: 5px;
+	display: block;
+	position: relative;
+	padding-left: 5%;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 20px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.muravei input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 40px;
+	width: 40px;
+	background-color: rgb(128, 122, 122);
+	border-radius: 50%;
+}
+.muravei:hover input ~ .checkmark {
+	background-color: #ccc;
+}
+.muravei input:checked ~ .checkmark {
+	background-color: #F56565;
+}
+.checkmark:after {
+	content: '';
+	position: absolute;
+	display: none;
+}
+.container input:checked ~ .checkmark:after {
+	display: block;
+}
+.notContainer{
+	padding-left: 100%;
+	padding: 1%;
+	width: 30em;
+	transform: translate(-70px,0);
+}
+.calendar{
+	font-size: 130%;
+    padding-right: 10%;
+	padding-left: 1em;
+    margin: 0;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #B9B9B9;
+}
+.timeContainer{
+	padding-left: 17%;
+	font-size: 2em;
+	transform: translate(-170px,0);
+}
+.Appointment_title{
+	transform: translate(-45px,0);
+}
+.All_left{
+	padding-right: 5%;
+	padding-left: 10%;
+}
+.borradSmall{
+	border-radius: 1px;
+}
+.Font{
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+.fxb{
+	font-size: 3.5em;
+	font-style: normal;
+}
+.fxxb{
+	font-size: 5em;
+	font-style: normal;
+}
+.fb{
+	font-size: 3em;
+}
+.fm{
+	word-spacing: 0.3em;
+	letter-spacing: 0.1em;
+	font-size: 2em;
+}
+.fs{
+	padding: 0.2em;
+	font-size: 1.8em;
+}
+.fxs{
+	color: white;
+	padding: 0.1em;
+	font-size: 1.4em;
+	background-color: #fca1a1;
+	font-weight: bold;
+}
+.Yana{
+	width: 70%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+.photos{
+	width: 200px;
+}
